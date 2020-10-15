@@ -1,0 +1,32 @@
+class Assets{
+    constructor(
+        id,
+        name,
+        user_id,
+        product_id,
+        product_name,
+        assign_by,
+        deleted_at,
+        status,
+        created_at,
+        updated_at,
+        reason,
+        damage
+    ){
+        this.id=id;
+        this.name=name
+        this.user_id=user_id;
+        this.product_id=product_id;
+        this.product_name=product_name;
+        this.assign_by=assign_by;
+        this.deleted_at=deleted_at;
+        this.status=status;
+        this.created_at=created_at;
+        this.updated_at=updated_at;
+        this.reason=reason;
+        this.damage=damage
+    }
+}
+module.exports={
+    Assets: Assets
+};
