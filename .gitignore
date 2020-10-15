@@ -1,0 +1,10 @@
+
+package-lock.json
+node_modules
+.env
+yarn.lock
+upload
+upload_resume
+storage_biometric
+.autogit
+
